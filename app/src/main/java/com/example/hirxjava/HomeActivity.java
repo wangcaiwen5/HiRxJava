@@ -54,7 +54,7 @@ public class HomeActivity extends AppCompatActivity {
                     public void onNext(ResponseEntity<List<ProductEntity>> value) {
                         //接收
 
-                        System.out.println("接收"+value.code);
+                        System.out.println("接收"+value.code);//同一行代码冲突测试
 
                     }
 
