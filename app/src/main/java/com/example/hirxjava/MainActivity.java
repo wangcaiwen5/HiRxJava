@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         //3订阅Subscribe,通过subscribe关联observable和observer
         observable.subscribe(observer);*/
-      //不懂
+      //不懂  新的分支
 
 
 
