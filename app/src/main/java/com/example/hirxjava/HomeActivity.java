@@ -3,6 +3,7 @@ package com.example.hirxjava;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.hirxjava.entity.ProductEntity;
@@ -35,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
         //轮询请求
         //getData1();
         //拦截请求
-        getData2();
+       // getData2();
     }
 
     private void getData2() {
@@ -122,7 +123,6 @@ public class HomeActivity extends AppCompatActivity {
                             @Override
                             public void onNext(ResponseEntity<List<ProductEntity>> value) {
                                 //接收
-
                                 System.out.println("接收"+value.code);//同一行代码冲突测试
 
                             }
@@ -163,4 +163,10 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
+    public void login(View view){
+
+
+
+
+    }
 }

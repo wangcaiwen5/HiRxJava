@@ -37,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
     public void login(View view) {
      //login1();
         loginTest();
+
     }
 
     private void loginTest() {

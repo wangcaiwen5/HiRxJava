@@ -7,3 +7,8 @@
 /build
 /captures
 .externalNativeBuild
+
+E:\work_space\HiRxJava\countdowntimer
+
+gradlew -p countdowntimer clean build uploadArchives
+
